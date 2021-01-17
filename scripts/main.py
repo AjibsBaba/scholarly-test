@@ -3,8 +3,11 @@
 
 def calculate_liquid_volume(i, j, k):
     """
-    i represents the number of rows, j the number of glasses and k the amount of liquid in litres
-    :return: volume of liquid
+    Function to calculate the Volume of liquid
+    :param i: Number of Rows
+    :param j: Number of Glasses
+    :param k: Amount of liquid
+    :return: Amount of liquid in Jth jug
     """
 
     # Initialised glass variable with the first index assuming that the number of glasses is rows * (rows+1) /2
