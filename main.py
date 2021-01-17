@@ -7,7 +7,7 @@ def calculate_liquid_volume(i, j, k):
     :return: volume of liquid
     """
 
-    # Initialised the glass variable with the first index
+    # Initialised glass variable with the first index assuming that the number of glasses is rows * (rows+1) /2
     glass = [0] * int(i * (i + 1) / 2)
     index = 0
     glass[index] = k
